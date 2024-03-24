@@ -1,15 +1,15 @@
 require("dotenv").config();
 
 module.exports = {
-  token: process.env.TOKEN || "", // your bot token
+  token: process.env.TOKEN || "MTIyMTUzNjI3Mzk0NTIwMjc3OA.GzJmRu.2Q1kEZrqdWNdjupBjlCYgdcrfu2idT8z_d6CXM", // your bot token
   prefix: process.env.PREFIX || "*", // bot prefix
-  ownerID: process.env.OWNERID || ["823101214564417536"], //your discord id
+  ownerID: process.env.OWNERID || ["1187483815334133820"], //your discord id
   mongourl:
     process.env.MONGO_URI ||
     "mongodb+srv://Rakibxox:omit968965@cluster0.lbvtu.mongodb.net/myFirstDatabase?retryWrites=true&w=majority", // MongoDb URL
   topggapi: "",
   embedColor: process.env.COlOR || "#303037", // embed colour
-  logs: process.env.LOGS || "1205476519158489138", // channel id for guild create and delete logs
+  logs: process.env.LOGS || "1218516170668249089", // channel id for guild create and delete logs
   langs: process.env.LANGS || "en",
   nodes: [
     {
