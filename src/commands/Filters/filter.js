@@ -27,7 +27,7 @@ module.exports = {
         const embed = new MessageEmbed()
             .setColor(client.embedColor)
             .setAuthor({name: `| Filters menu`, iconURL: message.member.displayAvatarURL({dynamic:true})})
-            .setFooter({text:`Made With 💖 By Arezo HQ`, iconURL: client.user.displayAvatarURL({dynamic:true})})
+            .setFooter({text:`Made With 💖 By Yuta`, iconURL: client.user.displayAvatarURL({dynamic:true})})
 
       .setThumbnail(`${message.author.displayAvatarURL()}`)
             .setDescription(`**__This is my filters list u can enable filters by using dropdown menu\nFilters Take Some Time To Load__**\n<:online:1210253399031812147>Reset Filters
