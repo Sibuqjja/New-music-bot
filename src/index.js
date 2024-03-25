@@ -30,7 +30,7 @@ client.on("interactionCreate", async (interaction) => {
       )
       .setAuthor("Utility Commands")
       .setColor(client.embedColor)
-      .setFooter("king");
+      .setFooter("yuta");
 
     interaction.reply({ embeds: [embed6], ephemeral: true });
     return;
@@ -43,7 +43,7 @@ client.on("interactionCreate", async (interaction) => {
       .setDescription("`help, invite, ping, node, stats, uptime,`")
       .setAuthor("Information Commands")
       .setColor(client.embedColor)
-      .setFooter("Feel the Quality of king Music");
+      .setFooter("Feel the Quality of yuta Music");
     interaction.reply({ embeds: [embed1], ephemeral: true });
     return;
   }
@@ -55,7 +55,7 @@ client.on("interactionCreate", async (interaction) => {
       .setAuthor("Filter Commands")
 
       .setColor(client.embedColor)
-      .setFooter("king");
+      .setFooter("yuta");
 
     interaction.reply({ embeds: [embed2], ephemeral: true });
     return;
@@ -69,7 +69,7 @@ client.on("interactionCreate", async (interaction) => {
       )
       .setAuthor("Music Commands")
       .setColor(client.embedColor)
-      .setFooter("king");
+      .setFooter("yuta");
 
     interaction.reply({ embeds: [embed4], ephemeral: true });
     return;
@@ -94,7 +94,7 @@ client.on("interactionCreate", async (interaction) => {
       )
       .setAuthor("Utility Commands")
       .setColor(client.embedColor)
-      .setFooter("Feel the Quality of king Music");
+      .setFooter("Feel the Quality of yuta Music");
     interaction.reply({ embeds: [embed6], ephemeral: true });
     return;
   }
